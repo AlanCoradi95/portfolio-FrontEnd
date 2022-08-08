@@ -1,9 +1,13 @@
 div{
     background-color: gray;
-    
 }
 
-app-social{
-    float: right;
-    margin-top: 32px;
+#social{
+    text-align: end;
+    margin-top: 25px;
+}
+
+#login{
+    margin-top: 25px;
+    text-align: center;
 }

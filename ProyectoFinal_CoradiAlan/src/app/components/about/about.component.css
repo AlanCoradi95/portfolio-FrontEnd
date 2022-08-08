@@ -1,3 +1,26 @@
 img{
     border-radius: 50%;
+
+}
+
+.row{
+    padding: 20px;
+    border-bottom-left-radius: 5px;
+}
+
+#name{
+    text-align: center;
+}
+
+#name p:first-child{
+    font-size: x-large;
+    
+}
+
+#edit{
+    float: right;
+}
+
+#ab{
+    border: solid gray 1px;
 }

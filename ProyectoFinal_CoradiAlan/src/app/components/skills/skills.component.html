@@ -1,0 +1,23 @@
+<div class="container">
+  <button id="edit">Edit</button>
+  <div>
+    <h3>HERE GOES ALL THE SKILLS SHIT</h3>
+  </div>
+  <div class="row">
+      <div class="col-sm-4">
+        <div class="mb-2">
+          <progressbar [value]="55"></progressbar>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="mb-2">
+          <progressbar [value]="22" type="warning" [striped]="true">22%</progressbar>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="mb-2">
+          <progressbar [max]="200" [value]="166" type="danger" [striped]="true" [animate]="true"><i>166 / 200</i></progressbar>
+        </div>
+      </div>
+    </div>
+</div>

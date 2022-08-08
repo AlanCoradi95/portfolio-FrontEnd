@@ -8,6 +8,12 @@ import { LogoAPComponent } from './components/logo-ap/logo-ap.component';
 import { SocialComponent } from './components/social/social.component';
 import { BannerComponent } from './components/banner/banner.component';
 import { AboutComponent } from './components/about/about.component';
+import { StudyComponent } from './components/study/study.component';
+import { LoginComponent } from './components/login/login.component';
+import { HomeComponent } from './components/home/home.component';
+import { SkillsComponent } from './components/skills/skills.component';
+import { ProgressbarModule } from 'ngx-bootstrap/progressbar';
+import { ProyectsComponent } from './components/proyects/proyects.component';
 
 @NgModule({
   declarations: [
@@ -16,11 +22,17 @@ import { AboutComponent } from './components/about/about.component';
     LogoAPComponent,
     SocialComponent,
     BannerComponent,
-    AboutComponent
+    AboutComponent,
+    StudyComponent,
+    LoginComponent,
+    HomeComponent,
+    SkillsComponent,
+    ProyectsComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ProgressbarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
